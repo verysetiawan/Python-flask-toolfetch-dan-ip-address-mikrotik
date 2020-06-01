@@ -8,8 +8,16 @@ def config():
     #menangkap ip mikrotik client
     data = request.get_json()
     ip_mik = data["ip_router"]
+
     # Cetak ip Mikrotik
     print (f"IP Address Mikrotik adalah : {ip_mik}")
+
+    #Menyimpan informasi ip ke file ip_address.txt
+    file_write = open ("ip_address.txt","a")
+    file_write.write (ip_mik)
+    file_write.write ("\n")
+    file_write.close()
+
     return jsonify(data)
     
 
