@@ -5,19 +5,19 @@ mendapatkan ip address dari mikrotik dan dikirim menggunakan tool fetch ke flask
 <div>
 <li>
 1.membuat dhcp leases mikrotik yang dituliskan pada /ip dhcp-server lease-script dengan materi:
-    <li>
+    <ul>
     a.foreach script mikrotik
     b.tool fetch mikrotik
-    </li>
+    </ul>
 2.membuat app.py dengan materi:
-    <li>
+    <ul>
     a.flask
     b.request
     c.json
     d.render_template
     e.file append
     f.file read
-    </li>
+    </ul>
 3.membuat file ip_address.txt untuk menyimpan ip address yang diambil dari fetch mikrotik
 4.membuat file index.html untuk menampilkan isi file ip_address.txt ke web browser
 </li>
