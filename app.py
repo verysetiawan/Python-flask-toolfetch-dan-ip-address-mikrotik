@@ -20,7 +20,7 @@ def config():
 
     return jsonify(data)
 
-@app.route("/index")
+@app.route("/")
 def indexku():
     file_open = open ("template/ip_address.txt","r")
     baca_file = file_open.readlines()
