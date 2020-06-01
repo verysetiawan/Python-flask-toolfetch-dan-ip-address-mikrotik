@@ -1,6 +1,9 @@
 # Python-flask-toolfetch-dan-ip-address-mikrotik
-<html>
-<body>
+<h3>Topology</h3>
+Repository menggunakan topology berikut:
+<img src="toolfetchflask.png">
+
+<h3>Materi</h3>
 mendapatkan ip address dari mikrotik dan dikirim menggunakan tool fetch ke flask python:
 <ol>
 <li>membuat dhcp leases mikrotik yang dituliskan pada /ip dhcp-server lease-script dengan materi:</li>
